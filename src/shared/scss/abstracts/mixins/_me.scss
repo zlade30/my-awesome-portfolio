@@ -1,0 +1,57 @@
+@mixin me() {
+  .me-left-cont {
+    background-color: red;
+    height: 650px;
+  }
+
+  .me-right-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    flex-direction: column;
+  }
+
+  .me-right-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .me-right-bottom {
+    margin-top: 50px;
+  }
+}
+
+@mixin me-name($fontSize: 20px) {
+  .me-name {
+    font-family: 'Harmonia-Bold';
+    font-size: $fontSize;
+    margin-bottom: 0px;
+  }
+}
+
+@mixin me-quote($fontSize: 20px) {
+  .me-quote {
+    font-family: 'Harmonia-Semi-Bold';
+    font-size: $fontSize;
+    margin-bottom: 0px;
+  }
+}
+
+@mixin me-details($iconSize: 20px, $fontSize: 20px) {
+  .me-icon {
+    width: $iconSize;
+    height: $iconSize;
+    margin-right: 10px;
+  }
+
+  .me-details {
+    display: flex;
+    align-items: center;
+    font-family: 'Harmonia-Regular';
+    font-size: $fontSize;
+    padding-left: 45px;
+  }
+}

@@ -1,0 +1,67 @@
+@include me();
+@include me-name(80px);
+@include me-quote(30px);
+@include me-details(25px, 20px);
+
+@media only screen and (min-width: 350px) {
+  @include me();
+  @include me-name(40px);
+  @include me-quote(20px);
+  @include me-details(15px, 12px);
+}
+
+@media only screen and (min-width: 405px) {
+  @include me();
+  @include me-name(50px);
+  @include me-quote(22px);
+  @include me-details(18px, 15px);
+}
+
+@media only screen and (min-width: 470px) {
+  @include me();
+  @include me-name(50px);
+  @include me-quote(22px);
+  @include me-details(18px, 15px);
+}
+
+@media only screen and (min-width: 520px) {
+  @include me();
+  @include me-name(60px);
+  @include me-quote(22px);
+  @include me-details(20px, 18px);
+}
+
+@media only screen and (min-width: 575px) {
+  @include me();
+  @include me-name(70px);
+  @include me-quote(25px);
+  @include me-details(25px, 20px);
+}
+
+@media only screen and (min-width: 576px) {
+  @include me();
+  @include me-name(35px);
+  @include me-quote(15px);
+  @include me-details(15px, 8px);
+}
+
+@media only screen and (min-width: 768px) {
+  @include me();
+  @include me-name(50px);
+  @include me-quote(19px);
+  @include me-details(20px, 12px);
+}
+
+@media only screen and (min-width: 992px) {
+  @include me();
+  @include me-name(60px);
+  @include me-quote(22px);
+  @include me-details(23px, 17px);
+}
+
+@media only screen and (min-width: 1200px) {
+  @include me();
+  @include me-name(70px);
+  @include me-quote(25px);
+  @include me-details(25px, 20px);
+}
