@@ -1,15 +1,19 @@
-@mixin me() {
+@mixin me($height: 650px, $marginTopLeftCont: 50px, $marginTopRightCont: 50px) {
   .me-left-cont {
-    background-color: red;
-    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $height;
+    margin-top: $marginTopLeftCont;
   }
 
   .me-right-cont {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 650px;
+    height: $height;
     flex-direction: column;
+    margin-top: $marginTopRightCont;
   }
 
   .me-right-top {
@@ -21,6 +25,13 @@
 
   .me-right-bottom {
     margin-top: 50px;
+  }
+}
+
+@mixin me-profile($imgSize: 200px) {
+  .me-profile {
+    width: $imgSize;
+    height: $imgSize;
   }
 }
 

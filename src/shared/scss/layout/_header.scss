@@ -1,5 +1,5 @@
 .header {
-  max-width: 1170px;
+  max-width: 1000px;
   height: 40px;
   margin: 0 auto;
   align-items: center;
@@ -15,4 +15,34 @@
 
 .nav-btn:hover {
   color: #383838;
+}
+
+.nav-head {
+  width: 100%;
+  background-color: #cbf7e5;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu-icon {
+  width: 25px;
+  height: 25px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .menu-icon {
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+  .header {
+    max-width: 1170px;
+    height: 140px;
+    margin: 0 auto;
+    align-items: center;
+  }
 }

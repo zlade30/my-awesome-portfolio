@@ -2,40 +2,54 @@
 @include me-name(80px);
 @include me-quote(30px);
 @include me-details(25px, 20px);
+@include me-profile(400px);
 
-@media only screen and (min-width: 350px) {
-  @include me();
+@media only screen and (max-width: 350px) {
+  @include me(300px, 100px, 0px);
   @include me-name(40px);
   @include me-quote(20px);
   @include me-details(15px, 12px);
+  @include me-profile(250px);
+}
+
+@media only screen and (min-width: 350px) {
+  @include me(350px, 100px, 0px);
+  @include me-name(40px);
+  @include me-quote(20px);
+  @include me-details(15px, 12px);
+  @include me-profile(300px);
 }
 
 @media only screen and (min-width: 405px) {
-  @include me();
+  @include me(350px, 100px, 0px);
   @include me-name(50px);
   @include me-quote(22px);
   @include me-details(18px, 15px);
+  @include me-profile(300px);
 }
 
 @media only screen and (min-width: 470px) {
-  @include me();
+  @include me(400px, 100px, 0px);
   @include me-name(50px);
   @include me-quote(22px);
   @include me-details(18px, 15px);
+  @include me-profile(400px);
 }
 
 @media only screen and (min-width: 520px) {
-  @include me();
+  @include me(450px, 100px, 0px);
   @include me-name(60px);
   @include me-quote(22px);
   @include me-details(20px, 18px);
+  @include me-profile(500px);
 }
 
 @media only screen and (min-width: 575px) {
-  @include me();
+  @include me(450px, 100px, 0px);
   @include me-name(70px);
   @include me-quote(25px);
   @include me-details(25px, 20px);
+  @include me-profile(500px);
 }
 
 @media only screen and (min-width: 576px) {
@@ -43,6 +57,7 @@
   @include me-name(35px);
   @include me-quote(15px);
   @include me-details(15px, 8px);
+  @include me-profile(250px);
 }
 
 @media only screen and (min-width: 768px) {
@@ -50,6 +65,7 @@
   @include me-name(50px);
   @include me-quote(19px);
   @include me-details(20px, 12px);
+  @include me-profile(300px);
 }
 
 @media only screen and (min-width: 992px) {
@@ -57,11 +73,13 @@
   @include me-name(60px);
   @include me-quote(22px);
   @include me-details(23px, 17px);
+  @include me-profile(400px);
 }
 
 @media only screen and (min-width: 1200px) {
-  @include me();
+  @include me(650px);
   @include me-name(70px);
   @include me-quote(25px);
   @include me-details(25px, 20px);
+  @include me-profile(500px);
 }

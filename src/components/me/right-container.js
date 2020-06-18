@@ -10,6 +10,7 @@ const RightContainer = () => (
       <div className="col-12 me-right-bottom">
         <div className="row me-details">
           <img
+            alt="phone"
             className="me-icon"
             src="https://img.icons8.com/color/48/000000/phone.png"
           />
@@ -17,6 +18,7 @@ const RightContainer = () => (
         </div>
         <div className="row me-details">
           <img
+            alt="email"
             className="me-icon"
             src="https://img.icons8.com/color/48/000000/email.png"
           />
@@ -24,6 +26,7 @@ const RightContainer = () => (
         </div>
         <div className="row me-details">
           <img
+            alt="cap"
             className="me-icon"
             src="https://img.icons8.com/color/48/000000/motarboard.png"
           />

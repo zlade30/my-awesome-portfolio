@@ -1,11 +1,12 @@
 import React from 'react'
 import RightContainer from '../../components/me/right-container'
+import LeftContainer from '../../components/me/left-container'
 
 const Me = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-sm me-left-cont">One of three columns</div>
+        <LeftContainer />
         <RightContainer />
       </div>
     </div>
