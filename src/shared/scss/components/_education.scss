@@ -1,0 +1,89 @@
+@media only screen and (max-width: 350px) {
+  @include education-container();
+  @include education-box(383px, 300px, 0px, 300px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 350px) {
+  @include education-container();
+  @include education-box(383px, 300px, 0px, 300px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 405px) {
+  @include education-container();
+  @include education-box(383px, 300px, 0px, 300px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 470px) {
+  @include education-container();
+  @include education-box(383px, 300px, 0px, 300px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 520px) {
+  @include education-container();
+  @include education-box(383px, 300px, 0px, 300px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 575px) {
+  @include education-container();
+  @include education-box(383px, 300px, 258px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 576px) {
+  @include education-container();
+  @include education-box(383px, 300px, 240px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 768px) {
+  @include education-container();
+  @include education-box(383px, 300px, 420px);
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
+
+@media only screen and (min-width: 992px) {
+  @include education-container();
+  @include education-box(386px);
+  @include school-icon(90px, 90px);
+  @include school-cap(40px, 40px);
+  @include school-name(16px);
+  @include school-year(12px);
+}
+
+@media only screen and (min-width: 1200px) {
+  @include education-container();
+  @include education-box();
+  @include school-icon();
+  @include school-cap();
+  @include school-name();
+  @include school-year();
+}
