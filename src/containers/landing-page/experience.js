@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css'
 import Timeline from '../../components/experience/timeline'
 
 const Experience = () => (
-  <div className="experience">
+  <div className="container">
     <VerticalTimeline>
       <Timeline
         icon="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"

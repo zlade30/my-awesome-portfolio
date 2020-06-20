@@ -9,16 +9,16 @@ const Timeline = ({ icon, companyName, jobTitle, description, year }) => (
     }}
     contentArrowStyle={{ borderRight: '7px solid #e6e6e6' }}
     date={year}
-    dateClassName="experience-text-small"
-    iconClassName="experience-icon"
-    icon={<img src="https://img.icons8.com/ultraviolet/40/000000/work.png" />}
+    dateClassName="experience-date"
+    iconClassName="experience-icon-cont"
+    icon={<img className="experience-icon" src={icon} />}
   >
-    <h3 className="experience-text-large">{companyName}</h3>
-    <div className="experience-job-title">
-      <img style={{ marginRight: 10 }} src={icon} />
-      <label>{jobTitle}</label>
+    <h3 className="company-name">{companyName}</h3>
+    <div className="job">
+      <img className="job-icon" style={{ marginRight: 10 }} src={icon} />
+      <label className="job-title">{jobTitle}</label>
     </div>
-    <p>{description}</p>
+    <label className="job-description">{description}</label>
   </VerticalTimelineElement>
 )
 

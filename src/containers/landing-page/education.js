@@ -3,7 +3,7 @@ import EducationBox from '../../components/education/education-box'
 
 const Education = () => {
   return (
-    <div className="container">
+    <div className="container education">
       <div className="row">
         <EducationBox
           schoolYear="(2006-2010)"
