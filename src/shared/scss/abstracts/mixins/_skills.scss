@@ -1,0 +1,28 @@
+@mixin skills {
+  .skills {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .skills-cont {
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-title {
+    font-family: 'Harmonia-Black';
+    font-size: 50px;
+    color: #595959;
+  }
+
+  .skills-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+}

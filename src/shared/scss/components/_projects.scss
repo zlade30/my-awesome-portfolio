@@ -1,0 +1,39 @@
+@media only screen and (max-width: 350px) {
+  @include projects(30px, 15px, 150px, 50px);
+}
+
+@media only screen and (min-width: 350px) {
+  @include projects(30px, 15px, 150px, 50px);
+}
+
+@media only screen and (min-width: 405px) {
+  @include projects(40px, 15px, 250px, 50px);
+}
+
+@media only screen and (min-width: 470px) {
+  @include projects(40px, 15px, 250px, 50px);
+}
+
+@media only screen and (min-width: 520px) {
+  @include projects(40px, 15px, 250px, 50px);
+}
+
+@media only screen and (min-width: 575px) {
+  @include projects(40px, 15px, 250px, 50px);
+}
+
+@media only screen and (min-width: 576px) {
+  @include projects(60px, 18px, 300px, 60px);
+}
+
+@media only screen and (min-width: 768px) {
+  @include projects(80px, 28px);
+}
+
+@media only screen and (min-width: 992px) {
+  @include projects();
+}
+
+@media only screen and (min-width: 1200px) {
+  @include projects();
+}

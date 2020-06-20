@@ -12,7 +12,7 @@ const RightContainer = () => (
           <img
             alt="phone"
             className="me-icon"
-            src="https://img.icons8.com/color/48/000000/phone.png"
+            src={require('../../shared/icons/phone.png')}
           />
           <div>+639350042268</div>
         </div>
@@ -20,7 +20,7 @@ const RightContainer = () => (
           <img
             alt="email"
             className="me-icon"
-            src="https://img.icons8.com/color/48/000000/email.png"
+            src={require('../../shared/icons/email.png')}
           />
           <div>zal.dev.30@gmail.com</div>
         </div>
@@ -28,7 +28,7 @@ const RightContainer = () => (
           <img
             alt="cap"
             className="me-icon"
-            src="https://img.icons8.com/color/48/000000/motarboard.png"
+            src={require('../../shared/icons/cap.png')}
           />
           <div>Bachelors of Science in Information Technology</div>
         </div>

@@ -1,0 +1,37 @@
+@mixin projects(
+  $titleSize: 100px,
+  $btnTextSize: 30px,
+  $btnWidth: 500px,
+  $btnHeight: 80px
+) {
+  .project {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .project-title {
+    font-family: 'Harmonia-Black';
+    font-size: $titleSize;
+    color: #5fad8d;
+  }
+
+  .project-btn {
+    width: $btnWidth;
+    height: $btnHeight;
+    background-color: #5fad8d;
+    border-radius: 20px;
+    color: white;
+    font-size: $btnTextSize;
+    font-family: 'Harmonia-Bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 41px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 41px -23px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 41px -23px rgba(0, 0, 0, 0.75);
+  }
+}
