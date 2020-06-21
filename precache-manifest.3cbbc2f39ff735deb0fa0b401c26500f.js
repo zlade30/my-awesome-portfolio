@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf80e5a4a6b29429e25d08e1c24f8980",
+    "revision": "638cf491aa6349946d7cfb85340fce25",
     "url": "/my-awesome-portfolio/index.html"
   },
   {
-    "revision": "3edced294f67d70160c6",
+    "revision": "d4a43e4c6b9ea0ecbfdb",
     "url": "/my-awesome-portfolio/static/css/2.ac1ab58b.chunk.css"
   },
   {
-    "revision": "aa8ccbae67abc2172f5e",
-    "url": "/my-awesome-portfolio/static/css/main.1d1cd569.chunk.css"
+    "revision": "000c37df02f9c0e0e2a0",
+    "url": "/my-awesome-portfolio/static/css/main.d5554b62.chunk.css"
   },
   {
-    "revision": "3edced294f67d70160c6",
-    "url": "/my-awesome-portfolio/static/js/2.f91d4a53.chunk.js"
+    "revision": "d4a43e4c6b9ea0ecbfdb",
+    "url": "/my-awesome-portfolio/static/js/2.d36e1cdd.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/my-awesome-portfolio/static/js/2.f91d4a53.chunk.js.LICENSE.txt"
+    "url": "/my-awesome-portfolio/static/js/2.d36e1cdd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa8ccbae67abc2172f5e",
-    "url": "/my-awesome-portfolio/static/js/main.9eb62dfd.chunk.js"
+    "revision": "000c37df02f9c0e0e2a0",
+    "url": "/my-awesome-portfolio/static/js/main.91d94fa8.chunk.js"
   },
   {
     "revision": "e2f42b7aaaa29d08439d",
@@ -234,6 +234,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b88b6f82200d97d9f29867134713328a",
     "url": "/my-awesome-portfolio/static/media/HarmoniaSansProCyr-SemiBdIt.b88b6f82.woff2"
+  },
+  {
+    "revision": "2e892bc3da181dea8339e99196cf125b",
+    "url": "/my-awesome-portfolio/static/media/chat.2e892bc3.png"
+  },
+  {
+    "revision": "700e7f493d4a3a084fc80a0855886efb",
+    "url": "/my-awesome-portfolio/static/media/collaborate.700e7f49.png"
+  },
+  {
+    "revision": "f2b7ee42a4d8174793425cfc8381faef",
+    "url": "/my-awesome-portfolio/static/media/journal.f2b7ee42.png"
   },
   {
     "revision": "fb1c13913c54e5008372cdf84fa4d782",
