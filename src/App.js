@@ -6,7 +6,7 @@ import MyProjects from './containers/my-projects/my-projects'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Switch>
           <Route exact path="/">
