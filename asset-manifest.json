@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-awesome-portfolio/static/css/main.d5554b62.chunk.css",
-    "main.js": "/my-awesome-portfolio/static/js/main.bd588ff2.chunk.js",
-    "main.js.map": "/my-awesome-portfolio/static/js/main.bd588ff2.chunk.js.map",
+    "main.js": "/my-awesome-portfolio/static/js/main.a235f0ca.chunk.js",
+    "main.js.map": "/my-awesome-portfolio/static/js/main.a235f0ca.chunk.js.map",
     "runtime-main.js": "/my-awesome-portfolio/static/js/runtime-main.6fd35aa3.js",
     "runtime-main.js.map": "/my-awesome-portfolio/static/js/runtime-main.6fd35aa3.js.map",
     "static/css/2.ac1ab58b.chunk.css": "/my-awesome-portfolio/static/css/2.ac1ab58b.chunk.css",
     "static/js/2.d36e1cdd.chunk.js": "/my-awesome-portfolio/static/js/2.d36e1cdd.chunk.js",
     "static/js/2.d36e1cdd.chunk.js.map": "/my-awesome-portfolio/static/js/2.d36e1cdd.chunk.js.map",
     "index.html": "/my-awesome-portfolio/index.html",
-    "precache-manifest.1cc994f59a6c444429393f96cdf4e150.js": "/my-awesome-portfolio/precache-manifest.1cc994f59a6c444429393f96cdf4e150.js",
+    "precache-manifest.1d8c7c3db9decbb5acd5c531090097f1.js": "/my-awesome-portfolio/precache-manifest.1d8c7c3db9decbb5acd5c531090097f1.js",
     "service-worker.js": "/my-awesome-portfolio/service-worker.js",
     "static/css/2.ac1ab58b.chunk.css.map": "/my-awesome-portfolio/static/css/2.ac1ab58b.chunk.css.map",
     "static/css/main.d5554b62.chunk.css.map": "/my-awesome-portfolio/static/css/main.d5554b62.chunk.css.map",
@@ -22,7 +22,7 @@
     "static/media/nbcc.png": "/my-awesome-portfolio/static/media/nbcc.30bdfe23.png",
     "static/media/pes.png": "/my-awesome-portfolio/static/media/pes.72bc48e3.png",
     "static/media/postman.png": "/my-awesome-portfolio/static/media/postman.4d2624cf.png",
-    "static/media/profile.png": "/my-awesome-portfolio/static/media/profile.1059ecf3.png",
+    "static/media/profile.png": "/my-awesome-portfolio/static/media/profile.b89eaa89.png",
     "static/media/studio.png": "/my-awesome-portfolio/static/media/studio.abc8420e.png"
   },
   "entrypoints": [
@@ -30,6 +30,6 @@
     "static/css/2.ac1ab58b.chunk.css",
     "static/js/2.d36e1cdd.chunk.js",
     "static/css/main.d5554b62.chunk.css",
-    "static/js/main.bd588ff2.chunk.js"
+    "static/js/main.a235f0ca.chunk.js"
   ]
 }
