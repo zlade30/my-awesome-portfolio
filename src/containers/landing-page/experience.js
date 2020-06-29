@@ -49,13 +49,6 @@ const Experience = forwardRef((props, ref) => (
       />
       <Timeline
         icon={require('../../shared/icons/react.png')}
-        companyName="Medsoftgroup"
-        jobTitle="ReactJS Developer"
-        description="This job enhances my skills in React. I've learned a lot in here including backend and some resources that I never been encounter before."
-        year="Oct 2019 – Dec 2019"
-      />
-      <Timeline
-        icon={require('../../shared/icons/react.png')}
         companyName="Coffield Web"
         jobTitle="ReactJS/Frontend Developer"
         description="This job is so amazing. It trained me on how to work professionally
