@@ -46,7 +46,7 @@ const Experience = forwardRef((props, ref) => (
         jobTitle="ReactJS/Frontend Developer"
         description="This job is so amazing. It trained me on how to work professionally
                     and how to handle with clients."
-        year="Nov 2019 – now"
+        year="Nov 2019 – June 2020"
       />
     </VerticalTimeline>
   </div>
