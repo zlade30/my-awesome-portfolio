@@ -42,7 +42,7 @@ const Experience = forwardRef((props, ref) => (
       />
       <Timeline
         icon={require('../../shared/icons/react.png')}
-        companyName="Medsoftgroup"
+        companyName="Medsoft Group"
         jobTitle="ReactJS Developer"
         description="This job enhances my skills in React. I've learned a lot in here including backend and some resources that I never been encounter before."
         year="Oct 2019 – Dec 2019"
