@@ -33,11 +33,10 @@ const Experience = forwardRef((props, ref) => (
       />
       <Timeline
         icon={require('../../shared/icons/react.png')}
-        companyName="Data Corporation"
-        jobTitle="React Native Developer"
-        description="This online job is very interesting yet challenging as well. I learned
-                    so much in this company and it really helps me grow more in IT
-                    industry."
+        companyName="Coffield Web"
+        jobTitle="ReactJS/Frontend Developer"
+        description="This job is so amazing. It trained me on how to work professionally
+                    and how to handle with clients."
         year="Nov 2018 – Oct 2019"
       />
       <Timeline
@@ -49,10 +48,11 @@ const Experience = forwardRef((props, ref) => (
       />
       <Timeline
         icon={require('../../shared/icons/react.png')}
-        companyName="Coffield Web"
-        jobTitle="ReactJS/Frontend Developer"
-        description="This job is so amazing. It trained me on how to work professionally
-                    and how to handle with clients."
+        companyName="Data Corporation"
+        jobTitle="React Native Developer"
+        description="This online job is very interesting yet challenging as well. I learned
+                    so much in this company and it really helps me grow more in IT
+                    industry."
         year="Dec 2019 – June 2020"
       />
     </VerticalTimeline>
